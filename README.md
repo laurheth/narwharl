@@ -4,9 +4,9 @@
 
 I made this in 2010 as a project to learn C++. It is a roguelike, rendered in ascii, in which you delve into a deep dungeon and fight monsters. I dug it up recently and intend to update it for the modern era of 2018 (with somewhat more experienced eyes).
 
-## Known Issues
+## Installing
 
-- Currently doesn't compile. This may be just my system; I initially wrote it in Cygwin on Windows. Now I am on a completely different system. Porting it shouldn't take long.
+Currently only tested in OS X. Depends on ncurses. It _should_ be straightforward, but Makefiles probably need tinkering.
 
 ## TODO
 
