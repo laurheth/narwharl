@@ -44,8 +44,8 @@ void placeitem(int y, int x, Map * map) {
   }
 }
 
-int dotheshit(int ly, int lx, int hy, int hx, int py, int px, Map * map);
-int dotheshit(int ly, int lx, int hy, int hx, int py, int px, Map * map, int mustberoom);
+int addroom(int ly, int lx, int hy, int hx, int py, int px, Map * map);
+int addroom(int ly, int lx, int hy, int hx, int py, int px, Map * map, int mustberoom);
 
 tile Map::gettile(int y, int x)
 {
@@ -299,7 +299,7 @@ int curvyhall(int ly, int lx, int hy, int hx, int py, int px, int dy, int dx, Ma
     if (-dx>= 0) {llx -= (int)(mtrand()*7)+2;}
     if (-dy<= 0) {hhy += (int)(mtrand()*7)+2;}
     if (-dx<= 0) {hhx += (int)(mtrand()*7)+2;}
-    if (dotheshit(lly,llx,hhy,hhx,ty,tx,map,1) == 0) {tries--;}
+    if (addroom(lly,llx,hhy,hhx,ty,tx,map,1) == 0) {tries--;}
     else {break;}
   }
   if (tries==0) {return 0;}
@@ -499,7 +499,7 @@ int longhallway(int dy, int dx, int py, int px, Map * map)
     if (-dx>= 0) {lx -= (int)(mtrand()*7)+2;}
     if (-dy<= 0) {hy += (int)(mtrand()*7)+2;}
     if (-dx<= 0) {hx += (int)(mtrand()*7)+2;}
-    if (dotheshit(ly,lx,hy,hx,y,x,map,1) == 0) {numberofattempts--;}
+    if (addroom(ly,lx,hy,hx,y,x,map,1) == 0) {numberofattempts--;}
     else {break;}
   }
   if (numberofattempts==0) {return 0;}
@@ -692,12 +692,12 @@ int placement(int ly, int lx, int hy, int hx, int y, int x, char itemprob, char 
 
 // Make a new room
 // lower y and x, higher y and x, parent y and x, map
-int dotheshit(int ly, int lx, int hy, int hx, int py, int px, Map * map)
+int addroom(int ly, int lx, int hy, int hx, int py, int px, Map * map)
 {
-  return dotheshit(ly, lx, hy, hx, py, px, map, 0);
+  return addroom(ly, lx, hy, hx, py, px, map, 0);
 }
 
-int dotheshit(int ly, int lx, int hy, int hx, int py, int px, Map * map, int mustberoom)
+int addroom(int ly, int lx, int hy, int hx, int py, int px, Map * map, int mustberoom)
 {
   int roomtype;
   int success;
@@ -1116,7 +1116,7 @@ int Map::newgenmap(llist ** mmlist, int *sy, int *sx, Map *prevmap)
       if (i>= 0) {lx -= (int)(mtrand()*8)+1;}
       if (j<= 0) {hy += (int)(mtrand()*8)+1;}
       if (i<= 0) {hx += (int)(mtrand()*8)+1;}
-      if (dotheshit(ly,lx,hy,hx,y,x,this) == 0) {numberofattempts--;}
+      if (addroom(ly,lx,hy,hx,y,x,this) == 0) {numberofattempts--;}
       else {
 	tilgivingup=100;break;
       }
