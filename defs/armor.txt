@@ -1,0 +1,133 @@
+[begin]
+[name] cloak
+[type] armor
+[subtype] cloak
+[mass] 5
+[color] 2
+[dmgroll] 0 1 0 1
+[dmgvar] 0 1 0 1
+[level] 1
+[descstart]
+A hood and cape. Good to wear while on adventures. Offers some protection from the cold.
+[descend]
+[end]
+[begin]
+[name] padded armor
+[type] armor
+[subtype] upper body
+[mass] 10
+[color] 2
+[dmgroll] 1 1 0 0
+[dmgvar] 2 1 0 0
+[level] 1
+[descstart]
+A padded jacket usually worn under better forms of armor, but decent on its own.
+[descend]
+[end]
+[begin]
+[name] leather armor
+[type] armor
+[subtype] upper body
+[mass] 10
+[color] 2
+[dmgroll] 1 1 0 0
+[dmgvar] 1 2 0 0
+[level] 1
+[descstart]
+A leather jacket boiled stiff for protection from strikes.
+[descend]
+[end]
+[begin]
+[name] leather gloves
+[type] armor
+[subtype] gauntlets
+[mass] 1
+[color] 2
+[dmgroll] 1 1 0 0
+[dmgvar] 1 1 0 0
+[level] 1
+[descstart]
+Gloves made of tough leather.
+[descend]
+[end]
+[begin]
+[name] leather shoes
+[type] armor
+[subtype] boots
+[mass] 2
+[color] 2
+[dmgroll] 1 1 0 0
+[dmgvar] 1 1 0 0
+[level] 1
+[descstart]
+Shoes made of tough leather.
+[descend]
+[end]
+[begin]
+[name] leather pants
+[type] armor
+[subtype] lower body
+[mass] 5
+[color] 2
+[dmgroll] 1 1 0 0
+[dmgvar] 1 1 0 0
+[level] 1
+[descstart]
+Shoes made of tough leather.
+[descend]
+[end]
+[begin]
+[name] buckler
+[type] shield
+[mass] 5
+[color] 7
+[blockchance] 5
+[level] 1
+[descstart]
+A small small shield meant to not be cumbersome.
+[descend]
+[end]
+[begin]
+[name] light wooden shield
+[type] shield
+[mass] 10
+[color] 2
+[blockchance] 10
+[level] 1
+[descstart]
+A small small shield meant to not be cumbersome.
+[descend]
+[end]
+[begin]
+[name] heavy wooden shield
+[type] shield
+[mass] 15
+[color] 2
+[blockchance] 15
+[level] 1
+[descstart]
+A small small shield meant to not be cumbersome.
+[descend]
+[end]
+[begin]
+[name] light steel shield
+[type] shield
+[mass] 20
+[color] 7
+[blockchance] 10
+[level] 1
+[descstart]
+A small small shield meant to not be cumbersome.
+[descend]
+[end]
+[begin]
+[name] heavy steel shield
+[type] shield
+[mass] 30
+[color] 7
+[blockchance] 15
+[level] 1
+[descstart]
+A small small shield meant to not be cumbersome.
+[descend]
+[end]

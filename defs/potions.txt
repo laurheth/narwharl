@@ -1,0 +1,72 @@
+[begin]
+[name] healing potion
+[type] potion
+[level] 1
+[effects] 5 0 0 0 0 0 0
+[descstart]
+A potion which heals you.
+[descend]
+[end]
+[begin]
+[name] super healing potion
+[type] potion
+[level] 3
+[effects] 10 0 0 0 0 0 0
+[descstart]
+A potion which heals you a lot
+[descend]
+[end]
+[begin]
+[name] potion of growth
+[type] potion
+[level] 2
+[effects] 0 5 0 0 0 0 0
+[descstart]
+A potion which causes you to grow in size.
+[descend]
+[end]
+[begin]
+[name] potion of strength
+[type] potion
+[level] 5
+[effects] 0 0 1 0 0 0 0
+[descstart]
+A drink of this will make your muscles expand like a heros.
+[descend]
+[end]
+[begin]
+[name] potion of dexterity
+[type] potion
+[level] 4
+[effects] 0 0 0 1 0 0 0
+[descstart]
+A delicious beverage that improves your hand eye coordination.
+[descend]
+[end]
+[begin]
+[name] potion of agility
+[type] potion
+[level] 3
+[effects] 0 0 0 0 1 0 0
+[descstart]
+This potion makes you quick and nimble on your feet.
+[descend]
+[end]
+[begin]
+[name] potion of constitution
+[type] potion
+[level] 3
+[effects] 0 0 0 0 0 1 0
+[descstart]
+Quaffing this potion will make you more resilient.
+[descend]
+[end]
+[begin]
+[name] potion of poison
+[type] potion
+[level] 1
+[effects] 0 0 0 0 0 0 25
+[descstart]
+A nasty concoction that will drain your life away.
+[descend]
+[end]

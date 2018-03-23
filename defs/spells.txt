@@ -1,0 +1,37 @@
+[begin]
+[name] burning hands
+[effect] 1
+[range] 3
+[spread] 1
+[args] 0 2 1 2
+[level] 1
+[skiprange] 1
+[color] 3
+[descstart]
+A short range cone of flame.
+[descend]
+[end]
+[begin]
+[name] frost bolt
+[effect] 2
+[range] 6
+[args] 0 1 1 5
+[level] 1
+[color] 7
+[descstart]
+A bolt of frost.
+[descend]
+[end]
+[begin]
+[name] fireball
+[effect] 1
+[range] 7
+[args] 0 3 1 6
+[level] 3
+[color] 3
+[blastradius] 3
+[stopattarget] 1
+[descstart]
+An exploding ball of fire.
+[descend]
+[end]

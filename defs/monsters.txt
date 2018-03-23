@@ -1,0 +1,86 @@
+[begin]
+[name] goblin
+[symb] g
+[color] 4
+[strength] 10
+[dexterity] 10
+[agility] 10
+[toughness] 10
+[blocker]
+[size] 80
+[level] 1
+[armed]
+[descstart]
+A small, ugly humanoid with green skin and beady eyes.
+[descend]
+[end]
+[begin]
+[name] kobold
+[symb] k
+[color] 2
+[strength] 8
+[dexterity] 8
+[agility] 10
+[toughness] 8
+[size] 70
+[level] 1
+[armed]
+[descstart]
+A reptilian beast type thing that no one likes; Not even other kobolds.
+[descend]
+[end]
+[begin]
+[name] goblin wizard
+[symb] g
+[color] 6
+[strength] 5
+[dexterity] 11
+[agility] 10
+[toughness] 6
+[size] 80
+[level] 1
+[caster]
+[armed]
+[leveladjust] 1
+[maxmp] 2
+[spell] frost bolt
+[spell] burning hands
+[descstart]
+A goblin which is wise in the ways of magicing things.
+[descend]
+[end]
+[begin]
+[name] terrible beast
+[symb] t
+[color] 3
+[disarm]
+[strength] 10
+[dexterity] 10
+[agility] 10
+[toughness] 10
+[size] 100
+[level] 1
+[claw]
+[claw]
+[bite]
+[leveladjust] 1
+[descstart]
+A terrible beast that wants to eat you.
+[descend]
+[end]
+[begin]
+[name] rat
+[symb] r
+[color] 2
+[strength] 10
+[dexterity] 8
+[agility] 11
+[toughness] 10
+[size] 25
+[level] 1
+[bite]
+[descstart]
+A giant rat.
+[descend]
+[end]
+

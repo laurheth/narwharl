@@ -1,0 +1,10 @@
+If compiling from source:
+
+The default Makefile should work if you are under linux or in cygwin with ncurses. If you're compiling in Windows, you should do it under mingw with pdcurses and use the Makefile.mingw32 makefile.
+
+Since I've only just begun, I cannot guarantee cross platform-ness. However, I've tested it in cygwin, mingw, and on a random GNU/linux server somewhere in the aether which I think had Redhat on it.
+
+Instructions:
+STEP 1 : type "make"
+STEP 2 : pray
+STEP 3 : You're done!

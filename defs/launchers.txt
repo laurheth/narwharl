@@ -1,0 +1,30 @@
+[begin]
+[name] shortbow
+[type] launcher
+[subtype] bow
+[mass] 5
+[color] 2
+[size] 70
+[dmgroll] 0 1 0 0
+[dmgvar] 0 6 0 0
+[fuel] arrow
+[level] 1
+[descstart]
+A small bow.
+[descend]
+[end]
+[begin]
+[name] longbow
+[type] launcher
+[subtype] bow
+[mass] 8
+[color] 2
+[size] 140
+[dmgroll] 0 1 0 0
+[dmgvar] 0 8 0 0
+[fuel] arrow
+[level] 1
+[descstart]
+A large bow.
+[descend]
+[end]

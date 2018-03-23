@@ -1,0 +1,53 @@
+[begin]
+[name] short sword
+[type] weapon
+[subtype] sword
+[mass] 7
+[color] 7
+[dmgroll] 0 2 0 0
+[dmgvar] 0 3 0 0
+[level] 1
+[descstart]
+A short and pointy sword.
+[descend]
+[end]
+[begin]
+[name] club
+[type] weapon
+[subtype] club
+[mass] 7
+[color] 2
+[dmgroll] 2 0 0 0
+[dmgvar] 3 0 0 0
+[level] 1
+[descstart]
+A stick for beating things.
+[descend]
+[end]
+[begin]
+[name] morning star
+[type] weapon
+[subtype] club
+[mass] 7
+[color] 1
+[dmgroll] 1 1 0 0
+[dmgvar] 3 3 0 0
+[level] 1
+[descstart]
+A pointy ball on the end of a stick.
+[descend]
+[end]
+[begin]
+[name] dagger
+[type] weapon
+[subtype] knife
+[mass] 1
+[color] 7
+[dmgroll] 0 1 0 0
+[dmgvar] 0 3 0 0
+[level] 1
+[descstart]
+A short and pointy blade.
+[descend]
+[end]
+
