@@ -1,19 +1,20 @@
 # NarwhaRL - Nice And Relaxing or Worst Hell Always? the RogueLike
 
-# Background
+## Background
 
 I made this in 2010 as a project to learn C++. It is a roguelike, rendered in ascii, in which you delve into a deep dungeon and fight monsters. I dug it up recently and intend to update it for the modern era of 2018 (with somewhat more experienced eyes).
 
-# Known Issues
+## Known Issues
 
 - Currently doesn't compile. This may be just my system; I initially wrote it in Cygwin on Windows. Now I am on a completely different system. Porting it shouldn't take long.
 
-# TODO
+## TODO
 
+- Remove the mtrand package and write a wrapper for mt19937; the C++ standard library version is almost certainly better.
 - It was originally written using ncurses for "graphics". I plan to replace that entirely with SDL (and maybe some pixel art?)
 - Once it is up and running again and I have a sense where it is at, a more complete TODO list will be written.
 
-# Playing
+## Playing
 
 Controls right now:
 
