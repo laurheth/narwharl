@@ -26,7 +26,7 @@ using namespace std;
 
 int seed;
 
-Stuffgetter * objget = new Stuffgetter();
+Stuffgetter * objget;// = new Stuffgetter();
 string knowledge="";
 
 int main(int argc, char * argv[])
@@ -36,7 +36,7 @@ int main(int argc, char * argv[])
   int startx, starty;
   // desired coordinates
   int wantx, wanty;
-
+  
   // key press
   int ch;
 
@@ -50,6 +50,8 @@ int main(int argc, char * argv[])
   mtinit(&seed);
   cout << seed << endl;
 
+  objget = new Stuffgetter();
+  
   // ncurses stuff
   initscr(); //initialize screen
   cbreak(); //line buffering disabled

@@ -20,16 +20,16 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 #include <iostream>
 
-#ifdef MINGW
+				    //#ifdef MINGW
 #include <curses.h>
-#else
-#include <ncurses/cursesapp.h>
-#endif
+				    //#else
+				    //#include <ncurses/cursesapp.h>
+				    //#endif
 
 #include <string>
 //#include <cstring>
 #include <cstdlib>
-#include <time.h>
+#include <ctime>
 #include "mtrand/mtrand.h"
 
 #define DMGTYPES (4) // Number of defined damage types.
