@@ -8,12 +8,6 @@ I made this in 2010 as a project to learn C++. It is a roguelike, rendered in as
 
 Currently only tested in OS X. Depends on ncurses. It _should_ be straightforward, but Makefiles probably need tinkering.
 
-## TODO
-
-- Remove the mtrand package and write a wrapper for mt19937; the C++ standard library version is almost certainly better.
-- It was originally written using ncurses for "graphics". I plan to replace that entirely with SDL (and maybe some pixel art?)
-- Once it is up and running again and I have a sense where it is at, a more complete TODO list will be written.
-
 ## Playing
 
 Controls right now:
